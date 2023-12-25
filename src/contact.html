@@ -3,35 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🖤soliyana's personal site🖤</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <img src="./image/photot.jpg" alt="soliyana's pic">
-    <h1>contact</h1>/h1>
-    <a href="home.html">home</a>
-    <a href="aboutme.html">aboutme</a>
-    <a href="hobbies.html">hobbies</a>
-    <a href="resume.html">resume</a>
-    <hr>
-    <img src="./image/insta.jpeg" alt="instagram logo">
-    <p> soliyanakewani</p>
-    <img src="./image/download.jpeg" alt="email logo">
-    <p>soliyanakewani228@gmail.com</p>
-    <img src="./image/telegram.png" alt="telegram logo">
-    <p>@amnotlitseningbutkeeptalking</p>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./image/photot.jpg" alt="soliyana's pic" class="img-fluid rounded-circle" width="50" id="logo">
+                </a>
+                <h1 class="display-2 navbar-text text-center fw-bold">Contact</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a href="./home.html" class="nav-link">home</a>
+                        <a href="./aboutme.html" class="nav-link">aboutme</a>
+                        <a href="./hobbies.html" class="nav-link">hobbies</a>
+                        <a href="./resume.html" class="nav-link">resume</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <footer>
-        <p>all rights are reserved</p>
-  
-        <aside>
-           <address>
-              <i class="fas fa-location"></i> ADDIS ABABA<br>
-              <i class="fa-solid fa-phone"></i> +251 966798231 <br>
-              <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
-          
-        </aside>
-    </footer>
+        <hr>
 
-    
+        <div class="col-md-6">
+            <div class="col-md-4 instagram">
+                <img src="./image/insta.jpeg" alt="instagram logo" class="img-fluid  ">
+                <p>soliyanakewani</p>
+            </div>
+            <div class="col-md-4 email">
+                <img src="./image/download.jpeg" alt="email logo" class="img-fluid ">
+                <p><a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i> soliyanakewani228@gmail.com</a></p>
+            </div>
+            <div class="col-md-4 telegram pb-6">
+                <img src="./image/telegram.png" alt="telegram logo" class="img-fluid pb-6 ">
+                <p>@amnotlitseningbutkeeptalking</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer class="footer mt-5">
+            <div class="row">
+                <div class="col">
+                    <p class="lead">All rights are reserved</p>
+                </div>
+                <div class="col">
+                    <p class="lead"><i class="fas fa-phone"></i> +251 966798231</p>
+                </div>
+                <div class="col">
+                    <p class="lead">
+                        <img src="./image/download.jpeg" alt="email logo" class="img-fluid rounded-circle" width="50">
+                        <a href="mailto:soliyanakewani228@gmail.com"><i class="fas fa-envelope"></i> soliyanakewani228@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

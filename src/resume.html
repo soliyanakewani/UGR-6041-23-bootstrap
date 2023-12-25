@@ -3,68 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <title>🖤soliyana's personal site🖤</title>
 </head>
 <body>
-    <img src="./image/photot.jpg" alt="soliyana's pic">
-    <h1>resume</h1>/h1>
-    <a href="home.html">home</a>
-    <a href="aboutme.html">aboutme</a>
-    <a href="hobbies.html">hobbies</a>
-    <a href="contact.html">contact</a>
-    <hr>
-    <p>being young doesnt mean one lack the exprience to share. as long as we trive, we succeed. so in the past i have had quite an event full past years. some of them are listed below. </p>
-    <table>
-        <tr>
-            <th>volunteering </th>
-            <th>skill</th>
-            <th>education</th>
-            
-            
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li>selam hitsanat masadegiya</li>
-                    <li>akalgudategnoch mahber</li>
-                    <li>care eplespsy ethiopia</li>
-                </ul>
-            </td>
-            <td>
-              <ul>
-                <li>basic python programing</li>
-                <li>photography</li>
-                <li>counseling</li>
-                
-              </ul>
-           </td>
-           <td>
-             <ul>
-                <li>cruise school</li>
-                <li>kotebe ssc</li>
-                <li>AAU</li>
-             </ul>
-        </tr>
-    </table>
-   <p>care eplespsy ethiopia was one of the best decision of life. getting to understand other people even a little bit was both satisfying and terrifying. neverthless i enjoyed it.</p> 
-   <p>and from my education experience, i had the  happiest and worst memories in kotebe SSC school which was my highschool. i realized then that chasing grades was the start of a great fail and i also learned being your self has its own cost. overall it was the place that matured me up and buffed me for the real world.</p>
-   <svg >
+    <div class="container">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./image/photot.jpg" alt="soliyana's pic" class="img-fluid rounded-circle" width="50" id="logo">
+                </a>
+                <h1 class=" display-2 navbar-text text-center fw-bold                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     " >Resume</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a href="./home.html" class="nav-link">home</a>
+                        <a href="./aboutme.html" class="nav-link">aboutme</a>
+                        <a href="./hobbies.html" class="nav-link">hobbies</a>
+                        <a href="./contact.html" class="nav-link">contact</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)"  />
-    <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)" />
-  </svg>
-  <footer>
-    <p>all rights are reserved</p>
-
-    <aside>
-       <address>
-          <i class="fas fa-location"></i> ADDIS ABABA<br>
-          <i class="fa-solid fa-phone"></i> +251 966798231 <br>
-          <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
-      
-    </aside>
- </footer>
-
-    
+        <hr>
+        <br>
+        <section class="section">
+            <div class="container">
+                <p class="paragraph">Being young doesn't mean one lacks the experience to share. As long as we strive, we succeed. So in the past, I have had quite an eventful past years. Some of them are listed below.</p>
+            </div>
+        </section>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Volunteering</th>
+                        <th>Skill</th>
+                        <th>Education</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li class="list-group-item">Selam Hitsanat Masadegiya</li>
+                                <li class="list-group-item">Akalgudategnoch Mahber</li>
+                                <li class="list-group-item">Care Epilepsy Ethiopia</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li class="list-group-item">Basic Python Programming</li>
+                                <li class="list-group-item">Photography</li>
+                                <li class="list-group-item">Counseling</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li class="list-group-item">Cruise School</li>
+                                <li class="list-group-item">Kotebe SSC</li>
+                                <li class="list-group-item">AAU</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="section">
+            <div class="container">
+                <p class="paragraph">Care Epilepsy Ethiopia was one of the best decisions of my life. Getting to understand other people even a little bit was both satisfying and terrifying. Nevertheless, I enjoyed it.</p>
+                <p class="paragraph py-3">And from my education experience, I had the happiest and worst memories in Kotebe SSC school, which was my high school. I realized then that chasing grades was the start of a great fail, and I also learned being yourself has its own cost. Overall it was the place that matured me up and buffed me for the real world.</p>
+                <br>
+                <svg class="larger-image pb-6">
+                    <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)" />
+                    <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)" />
+                </svg>
+            </div>
+        </div>
+        <hr>
+        <footer class="footer mt-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <p class="lead">All rights are reserved</p>
+                  </div>
+                  <div class="col">
+                      <p class="lead"><i class="fas fa-phone"></i> +251 966798231</p>
+                  </div>
+                  <div class="col">
+                      <p class="lead">
+                        <div class="email-address">
+                          <img src="./image/download.jpeg" alt="email logo" class="img-fluid rounded-circle" width="50">
+                          <a href="mailto:soliyanakewani228@gmail.com"><i class="fas fa-envelope"></i>
+                              soliyanakewani228@gmail.com</a>
+                         </div>
+                      </p>
+                    </div>
+                  </div>
+              </div>
+          
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

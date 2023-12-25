@@ -3,49 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <title>🖤soliyana's personal site🖤</title>
 </head>
 <body>
-    <img src="./image/photot.jpg" alt="soliyana's pic">
-    <h1>hobbies</h1>
-    <a href="home.html">home</a>
-    <a href="aboutme.html">aboutme</a>
-    <a href="resume.html">resume</a>
-    <a href="contact.html">contact</a>
-    <hr>
-    <figure>
-        <img src="./image/red2.jpg" alt="red rose">
-        <figcaption>pure symbol of true love</figcaption>
-    </figure>
-    <figure>
-        <img src="./image/firfirtera.jpg" alt="image of the sky and people just walking by">
-        <figcaption>calming weather around campus</figcaption>
-    
-    </figure>
-    <figure>
-        <img src="./image/pink.jpg" alt="pink flower">
-        <figcaption>pink hiding in the green</figcaption>
-    </figure>
-    <p>This is me. Anyone who knows me knows how i am opssesed with taking pictures. capturing the moment on my phone make sme happier. even if it is my profession, i still dont see it as work but my freedom. looking back at the photos i took makes me realise it is just a matter of being seen and an angle to be seen that will make things more beautiful.  </p>
-    <p>in addition to photography, poetry is also my all time favorite hobby. i take what the world gave me through pictures and i show the world my insides through my poems. ever since i was little i have diffculty expressing my emotions on the moment of action but after was a beautiful moment of me communicating through my pens with the papers and not real people. and that was how i developed my skill of poetry. i have morethan 100 poems lying one on top of the other in my drawer waiting to be  told to the world who made contribution for their creastion. </p>
-    
-    <audio controls>
-    <source src="audio.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
+    <div class="container">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand">
+                    <img src="./image/photot.jpg" alt="soliyana's pic" class="img-fluid rounded-circle" width="50" id="logo">
+                </a>
+                <h1 class="display-2 navbar-text text-center fw-bold">Hobbies</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a href="./home.html" class="nav-link">home</a> 
+                        <a href="./aboutme.html" class="nav-link">aboutme</a>
+                        <a href="./resume.html" class="nav-link">resume</a>
+                        <a href="./contact.html" class="nav-link">contact</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <hr>
+        
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        
+                        <img src="./image/red2.jpg" alt="red rose" class="img-fluid images pl-6" width="300" height="200">
+                        <figcaption class="caption">pure symbol of true love</figcaption>
+                    </div>
+                    <div class="col-md-6">
+                       
+                        <img src="./image/firfirtera.jpg" alt="image of the sky and people just walking by" class="img-fluid images" width="300" height="200">
+                        <figcaption class="caption">calming weather around campus</figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="justify-content-md-between">
+                        
+                        <img src="./image/pink.jpg" alt="pink flower" class="img-fluid images pl-8" width="300" height="200">
+                        <figcaption class="caption">pink hiding in the green</figcaption>
+                    </div>
+                    <br>
+                    <div class="md-6 pt-4">
+                        
+                        <p class="paragraph">This is me. Anyone who knows me knows how I am obsessed with taking pictures. Capturing the moment on my phone makes me happier. Even if it is my profession, I still don't see it as work but my freedom. Looking back at the photos I took makes me realize it is just a matter of being seen and an angle to be seen that will make things more beautiful.</p>
+                        <p class="paragraph">In addition to photography, poetry is also my all-time favorite hobby. I take what the world gave me through pictures and I show the world my insides through my poems. Ever since I was little, I have difficulty expressing my emotions in the moment of action, but afterward, it was a beautiful moment of me communicating through my pens with the papers and not real people. And that was how I developed my skill of poetry. I have more than 100 poems lying one on top of the other in my drawer waiting to be told to the world who made a contribution for their creation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
- </audio>
- <p>the lyric of this holy mezmur is the best one i know so far that i could guarantee 100 the best poem ever. eventhough it is not a poem it self the lyric is more powerfull for me.</p>
- <footer>
-    <p>all rights are reserved</p>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        
+                        <audio controls class="my-4">
+                            <source src="audio.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <p class="paragraph">The lyric of this holy mezmur is the best one I know so far that I could guarantee 100% the best poem ever. Even though it is not a poem itself, the lyric is more powerful for me.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <aside>
-       <address>
-          <i class="fas fa-location"></i> ADDIS ABABA<br>
-          <i class="fa-solid fa-phone"></i> +251 966798231 <br>
-          <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
-     
-    </aside>
- </footer>
+        <hr>
+
+        <footer class="footer mt-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <p class="lead">All rights are reserved</p>
+                  </div>
+                  <div class="col">
+                      <p class="lead"><i class="fas fa-phone"></i> +251 966798231</p>
+                  </div>
+                  <div class="col">
+                      <p class="lead">
+                        <div class="email-address">
+                          <img src="./image/download.jpeg" alt="email logo" class="img-fluid rounded-circle" width="50">
+                          <a href="mailto:soliyanakewani228@gmail.com"><i class="fas fa-envelope"></i>
+                              soliyanakewani228@gmail.com</a>
+                         </div>
+                      </p>
+                    </div>
+                  </div>
+              </div>
+          
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
